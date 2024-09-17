@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background:#632d5e;
+    margin: 0px;
+    font-family: "Sofadi One", system-ui;
+    margin-bottom: 100px;
+      
+}
+
+header {
+    border-bottom: solid 2px #b27409;
+    padding: 20px;
+    font-size: 20xp;
+    color:#b27409;
+}
+
+.chamada {
+     background:#0f1c30;
+     padding-right: 10px;
+     padding-left: 10px;
+     padding-bottom: 80px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+
+}
+h1 {
+    font-size: 30px;
+}
+
+
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.medieval {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px;
+}
+
+.videos img{
+    opacity: 0.5;
+    height: 150px;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 1px solid #b27409;
+}
+
